@@ -7,6 +7,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+
 @Data
 @Builder
 @NoArgsConstructor
@@ -15,7 +16,8 @@ import lombok.NoArgsConstructor;
 
 public class Jeep {
 	
-	  private Long modelPK;
+	public static final Jeep builder = null;
+	private Long modelPK;
 	  private JeepModel modelId;
 	  private String trimLevel;
 	  private int numDoors;
